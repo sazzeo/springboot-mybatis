@@ -11,10 +11,4 @@ import java.util.Map;
 @Mapper
 public interface RequestRepository {
 
-    @Select("SELECT * FROM SYS_REQUEST WHERE REQ_NO = #{reqNo}")
-    RequestDto selectRequest(String reqNo);
-
-
-    Map<String, Object> selectRequestMap(String reqNo);
-
 }

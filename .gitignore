@@ -2,4 +2,4 @@
 application.properties
 .gradle
 .idea
-
+build/

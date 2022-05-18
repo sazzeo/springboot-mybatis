@@ -58,12 +58,7 @@ public class RequestControllerTest {
                         .content(new ObjectMapper().writeValueAsString(reqNo)))
                 .andExpect(status().isOk());*/
 
-        //then
-        RequestDto dto = requestRepository.selectRequest(reqNo);
-        Map<String, Object> map = requestRepository.selectRequestMap(reqNo);
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
-        System.out.println(dto);
-        System.out.println(map);
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
 

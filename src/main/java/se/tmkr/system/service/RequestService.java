@@ -15,8 +15,7 @@ public class RequestService {
     @Transactional
     public RequestDto selectRequest(String reqNo){
 
-        return requestRepository.selectRequest(reqNo);
-
+        return null;
     }
 
 }
